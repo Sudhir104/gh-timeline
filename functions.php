@@ -1,5 +1,6 @@
 <?php
 // src/functions.php
+// This comment added for pull request test
 
 function generateVerificationCode() {
     return str_pad(rand(0, 999999), 6, '0', STR_PAD_LEFT);
